@@ -1,0 +1,55 @@
+canonical_identifier: bkk:krp/KR2b0001/v1
+canonical_location: https://kanripo.org/bkk/KR2b0001/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 竹書紀年
+  identifiers:
+    krp: KR2b0001
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR2b
+  source:
+    repository: tls-texts
+    path: data/tls/KR2b0001.xml
+  edition:
+    short: bkk
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR2b0001_001.yaml, hash: 'sha256:527959e3271fa495a4a99f79ee5af88d60971e307241b916856859a64db24241'}
+  - {seq: 2, filename: KR2b0001_002.yaml, hash: 'sha256:11e4647f82de91154360fc3435f499ef1e20357e2e6152ce2f62314eb2128c33'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2b0001_001.markers.yaml, hash: 'sha256:d5c28af8e98194adb0b090876cd09bc77c70c3ac37cd86a3737e84943c5f4199'}
+  - {seq: 2, role: markers, filename: assets/KR2b0001_002.markers.yaml, hash: 'sha256:606202e0978d8f7af1c1a747038f82af8f429527712226b9e06f2b14476f4f47'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2b0001_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 9361
+  label: 四部叢刊本所收今本竹書紀年
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2b0001_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 5023
+  label: 朱右曾輯錄汲冢紀年存真
+  type: section
+  level: 1
+hash: sha256:0814978439115f9dd7660c3211f8e37ffa0c2523044f5068ea52f7b6c0de7916
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
