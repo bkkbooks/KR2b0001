@@ -23,11 +23,11 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR2b0001_001.yaml, hash: 'sha256:527959e3271fa495a4a99f79ee5af88d60971e307241b916856859a64db24241'}
-  - {seq: 2, filename: KR2b0001_002.yaml, hash: 'sha256:11e4647f82de91154360fc3435f499ef1e20357e2e6152ce2f62314eb2128c33'}
+  - {seq: 1, filename: KR2b0001_001.yaml, hash: 'sha256:3c54ddc5566c56c5d6c89020cfb01e1f29176d0d815900b7eb0e8a5240f7b417'}
+  - {seq: 2, filename: KR2b0001_002.yaml, hash: 'sha256:5637c2146ba5829104cec350847349b34290639b8c760db1567d4692edc4486c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR2b0001_001.markers.yaml, hash: 'sha256:d5c28af8e98194adb0b090876cd09bc77c70c3ac37cd86a3737e84943c5f4199'}
-  - {seq: 2, role: markers, filename: assets/KR2b0001_002.markers.yaml, hash: 'sha256:606202e0978d8f7af1c1a747038f82af8f429527712226b9e06f2b14476f4f47'}
+  - {seq: 1, role: markers, filename: assets/KR2b0001_001.markers.yaml, hash: 'sha256:85c780abad855b20957b58b8dd83beaa6432cbe4ceed3385606dc8febcdba81f'}
+  - {seq: 2, role: markers, filename: assets/KR2b0001_002.markers.yaml, hash: 'sha256:2d292a27cd7662fa97cf296bb6c8dc56243b3366db2f6d7fde99b47399f2d849'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,7 +49,4 @@ table_of_contents:
   label: 朱右曾輯錄汲冢紀年存真
   type: section
   level: 1
-hash: sha256:0814978439115f9dd7660c3211f8e37ffa0c2523044f5068ea52f7b6c0de7916
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:0736fed3b25dec70812d8a1861b38cdf98757068b456b361256fa17701338877
