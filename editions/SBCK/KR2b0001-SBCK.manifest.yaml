@@ -22,8 +22,8 @@ assets:
   - {seq: 2, filename: KR2b0001_002-SBCK.yaml, hash: 'sha256:dcda7957c44abd38df25e79755c83fc20d84ca4760db5d6a98ec28e4e7a03689'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR2b0001_000-SBCK.markers.yaml, hash: 'sha256:ad51739d391536b77a1886fa0c68493305a1b45920a3daf579c3c340d38632fc'}
-  - {seq: 1, role: markers, filename: assets/KR2b0001_001-SBCK.markers.yaml, hash: 'sha256:1793309b9f0be00277c4d5484be6de35fb6380148ba3312773e752afe7ed4b49'}
-  - {seq: 2, role: markers, filename: assets/KR2b0001_002-SBCK.markers.yaml, hash: 'sha256:9b807de8ff5fa45c5de02c99114d9695ca5cdcc65feeb62601cc1767cce9e245'}
+  - {seq: 1, role: markers, filename: assets/KR2b0001_001-SBCK.markers.yaml, hash: 'sha256:9925fa0b5a2f32fd68aef569bb7239ef16d849546f6b30ded6bc8420ef060e2c'}
+  - {seq: 2, role: markers, filename: assets/KR2b0001_002-SBCK.markers.yaml, hash: 'sha256:56d1d0ef5213e3e0faa97cf187e2b943f65d5c8876c7ea94a9155a2381d27154'}
 table_of_contents:
 - ref:
     seq: 0
@@ -55,4 +55,4 @@ table_of_contents:
   label: juan 002
   type: section
   level: 1
-hash: sha256:3c317f26df0b103a52c8a6bdaa85cfab352579dc7297deb248c7c1b38ba1969e
+hash: sha256:fea9c2f2fa2298567ec6231d39526ea8086b0e2843995a538434d67cf377eca5
